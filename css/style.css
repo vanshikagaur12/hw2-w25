@@ -34,7 +34,7 @@ img{
 
 div{
     min-height: 125px;
-    padding: 20px;
+    padding: 20px 20px;
     border: 3px solid #ffffff;
 }
 
@@ -48,8 +48,8 @@ div{
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 5px solid #ffffff;
-    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    border-left: 5px solid #ffffff;
     border-top: none;
     border-right: none;
 }
@@ -88,6 +88,8 @@ div{
     margin-right: 50px;
     border-top: 2px solid #ffffff;
     border-right: 5px solid #ffffff;
+    border-bottom: none;
+    border-left: none;
 }
 
 footer{
@@ -101,4 +103,5 @@ footer p{
     padding-top: 15 px;
     padding-right: 15px;
     padding-bottom: 15px;
+    padding-left: none;
 }
